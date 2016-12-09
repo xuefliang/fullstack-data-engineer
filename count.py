@@ -1,4 +1,7 @@
 import json
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 fr = open("data/xyj.txt", "r")
 
